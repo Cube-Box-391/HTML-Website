@@ -4,7 +4,7 @@ html{
 
 h1{
     color:red;
-    font-size: 10ren;
+    font-size: 20ren;
 }
 h1 span{
     color: greenyellow;
@@ -15,4 +15,20 @@ body{
 
 .titulo{
     color: aqua;
+}
+.nav-bg{
+    background-color: brown;
+}
+.navegation{
+    
+}
+.navegation a{
+    
+}
+.contenedor{
+    width: 60rem;
+    margin-top: 10;
+    margin-right: auto;
+    margin-bottom: 10;
+    margin-left: auto;
 }
