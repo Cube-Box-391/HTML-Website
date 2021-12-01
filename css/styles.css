@@ -5,12 +5,14 @@ html{
 h1{
     color:red;
     font-size: 20ren;
+    font-family: 'Fira Code', monospace;
 }
 h1 span{
     color: greenyellow;
 }
 body{
     font-size: 1.5rem;
+    font-family: 'Fira Code', monospace;
 }
 
 .titulo{
@@ -18,12 +20,23 @@ body{
 }
 .nav-bg{
     background-color: brown;
+    width: 60rem;
+    margin: 10rem auto 10rem auto;
 }
 .navegation{
-    
+    display: flex;
+    justify-content: space-between;
 }
 .navegation a{
-    
+    text-decoration: none;
+    padding: 2rem 2rem;
+    color: greenyellow;
+}
+.navegation a:hover{
+    background-color: greenyellow;
+    padding: 2rem 2rem;
+    color: red;
+    font-weight: 600;
 }
 .contenedor{
     width: 60rem;
