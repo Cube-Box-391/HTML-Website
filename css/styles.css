@@ -1,47 +1,44 @@
 html{
-    font-size: 62.5%;
+    font-size: 62.5%;/*Set the default size for 1rem*/
 }
 
 h1{
-    color:red;
-    font-size: 20ren;
-    font-family: 'Fira Code', monospace;
+    color:red;/*Set the color of these item (in these case it is the title)*/
+    font-size: 20ren;/*Set the font size for these section*/
+    font-family: 'Fira Code', monospace;/*Set the font for these section*/
 }
 h1 span{
-    color: greenyellow;
+    color: greenyellow;/*Set the color for these item*/
 }
 body{
-    font-size: 1.5rem;
-    font-family: 'Fira Code', monospace;
+    font-size: 1.5rem;/*Set the default font size for the body*/
+    font-family: 'Fira Code', monospace;/*Set the default font for the body*/
 }
 
 .titulo{
-    color: aqua;
+    color: aqua;/*Set the color of these item*/
 }
 .nav-bg{
-    background-color: brown;
-    width: 60rem;
-    margin: 10rem auto 10rem auto;
+    background-color: brown;/*Set the bacground color of these item*/
+    width: 60rem;/*Set the width of these item*/
+    margin: 10rem auto 10rem auto;/*Set the size of the margin (format: top, right, bottom, left)*/
 }
 .navegation{
-    display: flex;
-    justify-content: space-between;
+    display: flex;/*Type of display*/
+    justify-content: space-between;/*The subtype for the display*/
 }
 .navegation a{
-    text-decoration: none;
-    padding: 2rem 2rem;
-    color: greenyellow;
+    text-decoration: none;/*Set if links have lines bellow or any other kind of thing*/
+    padding: 2rem 2rem;/*Set the size of the pading (format: top, right, bottom, left)*/
+    color: greenyellow;/*Set the color of these item*/
 }
 .navegation a:hover{
-    background-color: greenyellow;
-    padding: 2rem 2rem;
-    color: red;
-    font-weight: 600;
+    background-color: greenyellow;/*Set the bacground color of these item*/
+    padding: 2rem 2rem;/*Set the size of the padding (format: top, right, bottom, left)*/
+    color: red;/*Set the color of these item*/
+    font-weight: 600;/*Set the weight of the font*/
 }
 .contenedor{
-    width: 60rem;
-    margin-top: 10;
-    margin-right: auto;
-    margin-bottom: 10;
-    margin-left: auto;
+    width: 60rem;/*Set the width of these item*/
+    margin: 10 auto 10 auto;/*Set the size of the margin (format: top, right, bottom, left)*/
 }
