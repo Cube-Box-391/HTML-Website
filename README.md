@@ -55,4 +55,4 @@ If you want to contribute, feel free to create a pull request or a fork.
 
 ## 📜 License
 
-These Website template is license under a `GPL` `v3.0` License. Revise the `LICENSE` file for more info about the license. If you plan to use these code for the base of your website, will be thankfull if you added us on the credits.
+These Website template is license under a `GNU V3` License. Revise the `LICENSE` file for more info about the license. If you plan to use these code for the base of your website, will be thankfull if you added us on the credits.
