@@ -72,39 +72,41 @@
         <h2> <!--Add another section-->
             Contacto
         </h2>
-        <form> <!--Theese start's a form-->
+        <form class="formulario"> <!--Theese start's a form-->
             <fieldset> <!--Makes a square around everything-->
                 <legend> <!--Title on the square line-->
                     Rellene sus datos
                 </legend>
-                <div> <!--Makes divisions in beetween the things-->
+                <div class="contenedor-campos">
+                    <div class="campos"> <!--Makes divisions in beetween the things-->
+                        <label> <!--Lable of that section-->
+                            Nombre
+                        </label>
+                        <input type="text" placeholder="Pon su nombre" class="input-text"> <!--The type of the imput with a text inside-->
+                    </div>
+                    <div class="campos"> <!--Makes divisions in beetween the things-->
                     <label> <!--Lable of that section-->
-                        Nombre
+                        Telefono
+                    </label> <!--Lable of that section-->
+                    <input type="tel" placeholder="Pon tu numero de telefono" class="input-text"> <!--The type of the imput with a text inside-->
+                    </div>
+                    <div class="campos"> <!--Makes divisions in beetween the things-->
+                    <label> <!--Lable of that section-->
+                        Email
                     </label>
-                    <input type="text" placeholder="Pon su nombre"> <!--The type of the imput with a text inside-->
+                    <input type="email" placeholder="Pon tu correo electronico" class="input-text"> <!--The type of the imput with a text inside-->
+                    </div>
+                    <div class="campos"> <!--Makes divisions in beetween the things-->
+                        <label> <!--Lable of that section-->
+                            Mensaje
+                        </label>
+                        <input textarea class="long-textarea"></textarea> <!--Adds a big text box-->
+                    </div>
                 </div>
-                <div> <!--Makes divisions in beetween the things-->
-                <label> <!--Lable of that section-->
-                    Telefono
-                </label> <!--Lable of that section-->
-                <input type="tel" placeholder="Pon tu numero de telefono"> <!--The type of the imput with a text inside-->
-                </div>
-                <div> <!--Makes divisions in beetween the things-->
-                <label> <!--Lable of that section-->
-                    Email
-                </label>
-                <input type="email" placeholder="Pon tu correo electronico"> <!--The type of the imput with a text inside-->
-                </div>
-                <div> <!--Makes divisions in beetween the things-->
-                <label> <!--Lable of that section-->
-                    Mensaje
-                </label>
-                <textarea></textarea> <!--Adds a big text box-->
-                </div>
-                <button> <!--Adds a button-->
-                    Enviar
-                </button>
             </fieldset>
+            <div class="enviar">
+                <input type="submit" value="Enviar"> <!--Adds a button-->
+            </div>
         </form>
     </body>
 </html>
