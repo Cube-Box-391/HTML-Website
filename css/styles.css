@@ -1,5 +1,9 @@
 html{
     font-size: 62.5%;/*Set the default size for 1rem*/
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
 }
 
 h1{
@@ -91,9 +95,6 @@ body{
     border: none;
     margin-bottom: 5rem;
 }
-.contenedor-campos{
-    
-}
 .campos{
     margin-bottom: 1rem;
 }
@@ -132,4 +133,12 @@ body{
 }
 .enviar{
     margin: 0 auto;
+    text-decoration: none;
+    background-color: yellowgreen;
+    padding: 2rem;
+    border-radius: 2rem;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
 }
