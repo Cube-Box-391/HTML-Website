@@ -1,0 +1,61 @@
+.html{
+    font-size: 62.5%;
+}
+.h1{
+    color: red;
+}
+.padre1{
+    display: grid;
+    background-color: red;
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+.hijo{
+    background-color: blue;
+    padding: 1rem;
+}
+.padre2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+    background-color: greenyellow;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+.padre3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+    background-color: skyblue;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+.hijo1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: blue;
+    padding: 1rem;
+}
+.hijo2{
+    background-color: blue;
+    padding: 1rem;
+}
+.hijo3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: blue;
+    padding: 1rem;
+}
+.hijo4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: blue;
+    padding: 1rem;
+}
+.hijo5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: blue;
+    padding: 1rem;
+}
