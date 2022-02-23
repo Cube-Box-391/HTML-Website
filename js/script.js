@@ -35,5 +35,8 @@ let txt="hola hola"
 console.log(txt)
 let txt_c=txt
 txt=txt.toUpperCase
-console.log(txt.indexOf('hola'))
+//console.log(txt.indexOf('hola'))
 console.log(txt_c)
+
+console.log(nombre+apellido)
+console.log(`El nombre del alumno es: ${nombre} y el apellido es: ${apellido}`)
