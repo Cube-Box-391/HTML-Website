@@ -127,3 +127,17 @@ console.table(nombres)
 const array = ['string', 100, true, null, [1,2,3], moto={marca:'vespa', motor:'125CC'}]
 
 console.log(array)
+
+const enemigo = {
+    fuerza:1000,
+    velocidad:500,
+    salto:20,
+    arma:'cuchillo'
+}
+console.log(enemigo)
+
+let estrella = 0
+estrella=50
+
+enemigo.salto=estrella
+console.log(enemigo.salto)
