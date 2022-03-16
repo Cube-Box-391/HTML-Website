@@ -48,3 +48,14 @@ const total = carrito.reduce(function(total, producto){
     return total+producto.precio
 },0)
 console.log(total)
+
+
+const texto = document.querySelector('h1')
+console.log(texto)
+texto.style.color = "Blue"
+texto.textContent = "Adios"
+
+const valor = document.querySelector('#valor')
+console.log(valor.textContent)
+valor.textContent= "10"
+
