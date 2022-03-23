@@ -142,3 +142,9 @@ body{
     cursor: pointer;
     width: 100%;
 }
+.contador{
+    color: black;
+    background-color: yellow;
+    font-size: 4rem;
+    padding: 2rem;
+}

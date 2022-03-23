@@ -59,3 +59,12 @@ const valor = document.querySelector('#valor')
 console.log(valor.textContent)
 valor.textContent= "10"
 
+let segundos = 0
+function contador(){
+    segundos = segundos + 1
+    document.getElementById("time").innerHTML = segundos
+    if (segundos === 10){
+        alert("Muerto")
+    }
+}
+setInterval(contador,1000)
