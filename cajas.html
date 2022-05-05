@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cajas</title>
+    <style>
+        .borders{
+            border: 1px solid black;
+            width: 100px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="text" name="caja1" id="caja1"onkeyup="copiar();">
+        <input type="text" name="caja2" id="caja2">
+    </form>
+    <hr>
+    <button onclick="escribir();">Pulsar</button>
+    <button onclick="escribir2();">Copiar</button>
+    <div id="escribirtxt" class="borders">&nbsp;</div>
+    <script>
+        function copiar(){
+            document.getElementById("caja2").value=document.getElementById("caja1").value
+        }
+        function escribir(){
+            document.getElementById("escribirtxt").innerHTML="al pulsar escribo este texto"
+        }
+        function escribir2(){
+            var userInput = document.getElementById("caja1").value;
+            if(userInput == ""){
+                alert("please insert a value")
+            } else {
+                document.getElementById("escribirtxt").innerHTML=document.getElementById("caja1").value
+            }
+        }
+    </script>
+</body>
+</html>
